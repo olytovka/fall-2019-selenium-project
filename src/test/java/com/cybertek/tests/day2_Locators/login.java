@@ -25,6 +25,27 @@ public class login {
         WebElement click = driver.findElement(By.id("_submit"));
         click.click();
 
+        String url = "https://app.vytrack.com/";
+        String title = "Dashboard";
+        String actualUrl = driver.getCurrentUrl();
+        String actualTitle = driver.getTitle();
+
+        if(actualUrl.equals(url)){
+            System.out.println("PASS");
+        }else{
+            System.out.println("FAIL");
+            System.out.println("Wrong Url!!!");
+        }
+
+        if(actualTitle.equals(title)){
+            System.out.println("Title is matching. Test Pass");
+        }else{
+            System.out.println("Title is wrong");
+        }
+
+
+        driver.quit();
+
 
     }
 }

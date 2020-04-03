@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d98a251d-6584-4db8-946a-0a7e5cc35e07" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day2_Locators/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day2_Locators/login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/fall-2019-selenium-project.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/fall-2019-selenium-project.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day2_Locators/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day2_Locators/login.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -29,93 +33,119 @@
     </option>
   </component>
   <component name="ProjectId" id="1YUzE4YjF1znHsU7bcoQ7ZiVxrU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.login">
-    <configuration name="FindElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day2_Locators.FindElement" />
+  <component name="RunManager" selected="TestNG.ExplicitWaitExample">
+    <configuration name="ExplicitWaitExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day2_Locators.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day13_waits_and_synchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_and_synchronization" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_and_synchronization.ExplicitWaitExample" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Navigation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day1_Navigation.Navigation" />
+    <configuration name="ExplicitWaitExample.test1TitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day1_Navigation.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day13_waits_and_synchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_and_synchronization" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_and_synchronization.ExplicitWaitExample" />
+      <option name="METHOD_NAME" value="test1TitleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyURLOfPracticeWeb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day1_Navigation.VerifyURLOfPracticeWeb" />
+    <configuration name="ExplicitWaitExample.test2WaitForVisible" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day1_Navigation.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day13_waits_and_synchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_and_synchronization" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_and_synchronization.ExplicitWaitExample" />
+      <option name="METHOD_NAME" value="test2WaitForVisible" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Warmup1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day1_Navigation.Warmup1" />
+    <configuration name="VytrackLoginTestWithWait.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day13_waits_and_synchronization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_and_synchronization" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_and_synchronization.VytrackLoginTestWithWait" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day2_Locators.login" />
+    <configuration name="VytrackLoginTestWithWait.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day2_Locators.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day13_waits_and_synchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_and_synchronization" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_and_synchronization.VytrackLoginTestWithWait" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.login" />
-        <item itemvalue="Application.FindElement" />
-        <item itemvalue="Application.Warmup1" />
-        <item itemvalue="Application.Navigation" />
-        <item itemvalue="Application.VerifyURLOfPracticeWeb" />
+        <item itemvalue="TestNG.ExplicitWaitExample" />
+        <item itemvalue="TestNG.ExplicitWaitExample.test2WaitForVisible" />
+        <item itemvalue="TestNG.ExplicitWaitExample.test1TitleTest" />
+        <item itemvalue="TestNG.VytrackLoginTestWithWait.test2" />
+        <item itemvalue="TestNG.VytrackLoginTestWithWait.test" />
       </list>
     </recent_temporary>
   </component>
@@ -137,10 +167,62 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585521467356">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1920.-97.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585521467356" />
+    <state width="1398" height="165" key="GridCell.Tab.0.bottom" timestamp="1585946635765">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="170" key="GridCell.Tab.0.bottom/-1920.-74.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1585933571488" />
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/-1920.-74.1920.1057/0.23.1440.816@0.23.1440.816" timestamp="1585161755527" />
+    <state width="1398" height="165" key="GridCell.Tab.0.bottom/-1920.-97.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585946635765" />
+    <state width="1398" height="165" key="GridCell.Tab.0.center" timestamp="1585946635760">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="170" key="GridCell.Tab.0.center/-1920.-74.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1585933571486" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center/-1920.-74.1920.1057/0.23.1440.816@0.23.1440.816" timestamp="1585161755523" />
+    <state width="1398" height="165" key="GridCell.Tab.0.center/-1920.-97.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585946635760" />
+    <state width="1398" height="165" key="GridCell.Tab.0.left" timestamp="1585946635754">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="170" key="GridCell.Tab.0.left/-1920.-74.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1585933571485" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left/-1920.-74.1920.1057/0.23.1440.816@0.23.1440.816" timestamp="1585161755522" />
+    <state width="1398" height="165" key="GridCell.Tab.0.left/-1920.-97.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585946635754" />
+    <state width="1398" height="165" key="GridCell.Tab.0.right" timestamp="1585946635762">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="170" key="GridCell.Tab.0.right/-1920.-74.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1585933571487" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/-1920.-74.1920.1057/0.23.1440.816@0.23.1440.816" timestamp="1585161755524" />
+    <state width="1398" height="165" key="GridCell.Tab.0.right/-1920.-97.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585946635762" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1585777139039">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/-1920.-97.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585777139039" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1585777139036">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/-1920.-97.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585777139036" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1585777139035">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/-1920.-97.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585777139035" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1585777139037">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/-1920.-97.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585777139037" />
+    <state x="374" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1584982272890">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="374" y="268" key="com.intellij.ide.util.TipDialog/-1920.-74.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1584982272890" />
   </component>
 </project>
