@@ -9,7 +9,7 @@ public class ConfigurationReader {
 
     private static Properties properties = new Properties();
 
-    static{
+    static {
 
         try {
             // reads file in java. we neeed to pass the path of the file
@@ -17,12 +17,13 @@ public class ConfigurationReader {
             // load contents of the file the properties object.
             properties.load(fileInputStream);
             fileInputStream.close();
+
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
     public static String getProperty(String key){
-       return properties.getProperty(key);
+        return properties.getProperty(key);
     }
 }
