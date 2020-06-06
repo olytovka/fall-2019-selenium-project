@@ -17,14 +17,20 @@ public class PageHeadersTests extends VytrackTestBase {
 
     @Test
     public void dashboardPageTest(){
+
+        test = report.createTest("Dashboard page title test");
+
         String username = ConfigurationReader.getProperty("driver_username");
         String password = ConfigurationReader.getProperty("driver_password");
+        test.info("Logging in to application");
         loginPage.login(username, password);
 
         DashboardPage dashboardPage =  new DashboardPage();
         wait.until(ExpectedConditions.textToBePresentInElement(dashboardPage.pageHeader, "Quick Launchpad"));
         String actual = dashboardPage.pageHeader.getText();
+        test.info("Verifying page header text");
         assertEquals(actual, "Quick Launchpad");
+        test.pass("PASS: Dashboard page title test");
 
 
     }
@@ -36,12 +42,18 @@ public class PageHeadersTests extends VytrackTestBase {
 
     @Test
     public void fleetVehiclesTest(){
+        test = report.createTest("Vehicles page title test");
+
         //use login page to login
         String username = ConfigurationReader.getProperty("driver_username");
         String password = ConfigurationReader.getProperty("driver_password");
+        test.info("Loggining to the application");
+        test.info("Username: " + username);
+        test.info("Password: " + password);
         loginPage.login(username, password);
 
         //use dashboard page to change page
+        test.info("Going to Fleet -> Vehicles");
         wait.until(ExpectedConditions.elementToBeClickable(dashboardPage.fleet));
         dashboardPage.fleet.click();
         wait.until(ExpectedConditions.elementToBeClickable(dashboardPage.vehicles));
@@ -49,8 +61,10 @@ public class PageHeadersTests extends VytrackTestBase {
 
         //use the fleet/vehicles page to get text
         wait.until(ExpectedConditions.textToBePresentInElement(vehiclesPage.pageHeader, "Cars"));
+        test.info("Verifying page header");
         String actual = vehiclesPage.pageHeader.getText();
-        assertEquals(actual, "Cars");
+        assertEquals(actual, "Car");
+        test.pass("PASS: Vehicles page title test");
     }
 
 

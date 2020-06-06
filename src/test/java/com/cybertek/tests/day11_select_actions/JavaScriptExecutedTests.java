@@ -31,6 +31,7 @@ public class JavaScriptExecutedTests {
         WebElement link = driver.findElement(By.linkText("Cybertek School"));
 
         jse.executeScript("arguments[0].scrollIntoView(true);", link);
+
     }
 
     @Test

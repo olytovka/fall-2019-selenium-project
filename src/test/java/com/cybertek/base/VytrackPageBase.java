@@ -8,6 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.List;
+
 public abstract class VytrackPageBase {
 
     public VytrackPageBase(){
@@ -24,6 +26,9 @@ public abstract class VytrackPageBase {
 
     @FindBy(xpath = "(//a[@class='dropdown-toggle'])[1]")
     public WebElement accountHolderName;
+
+    @FindBy(css =".title-level-1")
+    public List<WebElement> menu1Options;
 
 
     public void changeMenu(String menu1, String menu2) {
